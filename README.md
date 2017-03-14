@@ -1,16 +1,14 @@
 # Real-time-Face-Recognition-using-GPU
 Using Caffe and OpenCV for face recognition.
 
-
-==============================================================================================================
 Institution: San Jose State University
-==============================================================================================================
+
 
 This basically explains how to execute the demo for face recognition system.
 It only works on TX1 and need to set the path properly. 
 If downladed and extracted in "/home/ubuntu/".
 change the related paths.
-==============================================================================================================
+
 1. testing_GoogLeNet.py [Main Demo File]
 RUN: $ python testing_GoogLeNet.py
 
