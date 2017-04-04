@@ -35,7 +35,6 @@ void drawObject(int x, int y, Mat &frame) {
 	//use some of the openCV drawing functions to draw crosshairs
 	//on your tracked image!
 
-	//UPDATE:JUNE 18TH, 2013
 	//added 'if' and 'else' statements to prevent
 	//memory errors from writing off the screen (ie. (-25,-25) is not within the window!)
 
@@ -217,7 +216,7 @@ int main(int, char**)
        system ("./tst.sh"); 
 
         //if(waitKey(3000) >= 0) break;
-   // }
+    }
     // the camera will be deinitialized automatically in VideoCapture destructor
     return 0;
 
