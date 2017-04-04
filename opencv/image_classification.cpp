@@ -114,7 +114,7 @@ int main(int, char**)
        Mat imgFrame2Copy = I2.clone();
        // 2imshow("Frame1tst", I1);
        //  waitKey(0);
-       /*
+      
        Mat imgDifference;
        Mat imgThresh;
 
@@ -203,10 +203,10 @@ int main(int, char**)
 
     
   
-       /*
+      
 
-   // for(;;)
-//    {
+    for(;;)
+   {
         Mat frame;
         cap >> frame; // get a new frame from camera
         cvtColor(frame, edges, CV_BGR2GRAY);
@@ -218,7 +218,6 @@ int main(int, char**)
 
         //if(waitKey(3000) >= 0) break;
    // }
-*/
     // the camera will be deinitialized automatically in VideoCapture destructor
     return 0;
 
